@@ -1,0 +1,11 @@
+[Unit]
+Description=An open-source Among Us server
+DefaultDependencies=no
+
+[Service]
+ExecStart=/home/zneix/github/impostor/out/Impostor.Server
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=default.target
